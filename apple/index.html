@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./item-slide.css">
+</head>
+
+
+<body>
+    <section class="app-store-wrapper">
+        <div class="apps-marquee">
+            <ul class="list" style="transform: translateX(-548.9px);">
+
+                <li class="item">
+                    <a class="item-link" href="#">
+                        <img class="item-img" src="./800x490.jpg" alt="Image">
+                        <div class="item-label">NOW TRENDING</div>
+                        <div class="item-content">
+                            <img class="item-icon" src="./800x800.jpg" alt="Image">
+                            <h4 class="item-title">Are You Getting Enough Sleep?</h4>
+                            <div>
+                                <span class="item-btn">View</span>
+                                <span class="item-iap">In-App Purchases</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="item">
+                    <a class="item-link" href="#">
+                        <img class="item-img" src="./800x490.jpg" alt="Image">
+                        <div class="item-label">NOW TRENDING</div>
+                        <div class="item-content">
+                            <img class="item-icon" src="./800x800.jpg" alt="Image">
+                            <h4 class="item-title">Are You Getting Enough Sleep?</h4>
+                            <div>
+                                <span class="item-btn">View</span>
+                                <span class="item-iap">In-App Purchases</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="item">
+                    <a class="item-link" href="#">
+                        <img class="item-img" src="./800x490.jpg" alt="Image">
+                        <div class="item-label">NOW TRENDING</div>
+                        <div class="item-content">
+                            <img class="item-icon" src="./800x800.jpg" alt="Image">
+                            <h4 class="item-title">Are You Getting Enough Sleep?</h4>
+                            <div>
+                                <span class="item-btn">View</span>
+                                <span class="item-iap">In-App Purchases</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="item">
+                    <a class="item-link" href="#">
+                        <img class="item-img" src="./800x490.jpg" alt="Image">
+                        <div class="item-label">NOW TRENDING</div>
+                        <div class="item-content">
+                            <img class="item-icon" src="./800x800.jpg" alt="Image">
+                            <h4 class="item-title">Are You Getting Enough Sleep?</h4>
+                            <div class="item-btn-wrapper">
+                                <span class="item-btn">View</span>
+                                <span class="item-iap">In-App Purchases</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="item">
+                    <a class="item-link" href="#">
+                        <img class="item-img" src="./800x490.jpg" alt="Image">
+                        <div class="item-label">NOW TRENDING</div>
+                        <div class="item-content">
+                            <img class="item-icon" src="./800x800.jpg" alt="Image">
+                            <h4 class="item-title">Are You Getting Enough Sleep?</h4>
+                            <div>
+                                <span class="item-btn">View</span>
+                                <span class="item-iap">In-App Purchases</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="item">
+                    <a class="item-link" href="#">
+                        <img class="item-img" src="./800x490.jpg" alt="Image">
+                        <div class="item-label">NOW TRENDING</div>
+                        <div class="item-content">
+                            <img class="item-icon" src="./800x800.jpg" alt="Image">
+                            <h4 class="item-title">Are You Getting Enough Sleep?</h4>
+                            <div>
+                                <span class="item-btn">View</span>
+                                <span class="item-iap">In-App Purchases</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+    <script>
+        let currentIndex = 0;
+        const items = document.querySelectorAll('.item');
+        const totalItems = items.length;
+
+        function showItem(index) {
+            const list = document.querySelector('.list');
+            const itemWidth = items[0].offsetWidth;
+            currentIndex = index;
+
+            const translateValue = -currentIndex * itemWidth;
+            list.style.transform = `translateX(${translateValue}px)`;
+        }
+
+        function nextItem() {
+            if (currentIndex < totalItems - 1) currentIndex++;
+            else currentIndex = 0;
+            showItem(currentIndex);
+        }
+
+        function prevItem() {
+            if (currentIndex > 0) currentIndex--;
+            else currentIndex = totalItems - 1;
+            showItem(currentIndex);
+        }
+        setInterval(nextItem, 3000);
+    </script>
+
+</body>
+
+</html>
