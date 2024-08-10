@@ -43,7 +43,7 @@ Open `index.html` in your preferred web browser to view the mobile menu in actio
 
 ## Contributing
 
-Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
+Contributions are welcome! If you have suggestions or want to enhance the project, feel free to fork the repository and submit a pull request.
 
 ## Connect with Me
 
