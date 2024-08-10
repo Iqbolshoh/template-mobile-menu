@@ -52,9 +52,21 @@ I love connecting with new people and exploring new opportunities. Feel free to 
 <table>
     <tr>
         <td>
+            <a href="https://github.com/iqbolshoh">
+                <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
+                    height="48" width="48" alt="GitHub" />
+            </a>
+        </td>
+        <td>
             <a href="https://t.me/iqbolshoh_777">
                 <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/telegram.svg"
                     height="48" width="48" alt="Telegram" />
+            </a>
+        </td>
+        <td>
+            <a href="https://www.linkedin.com/in/iiqbolshoh/">
+                <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/linkedin.svg"
+                    height="48" width="48" alt="LinkedIn" />
             </a>
         </td>
         <td>
@@ -75,12 +87,6 @@ I love connecting with new people and exploring new opportunities. Feel free to 
             </a>
         </td>
         <td>
-            <a href="https://www.linkedin.com/in/iqbolshoh/">
-                <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/linkedin.svg"
-                    height="48" width="48" alt="LinkedIn" />
-            </a>
-        </td>
-        <td>
             <a href="mailto:iilhomjonov777@gmail.com">
                 <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/gmail.svg"
                     height="48" width="48" alt="Email" />
@@ -88,3 +94,4 @@ I love connecting with new people and exploring new opportunities. Feel free to 
         </td>
     </tr>
 </table>
+
