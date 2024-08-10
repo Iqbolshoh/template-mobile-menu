@@ -18,6 +18,12 @@ This repository contains a simple mobile menu template built using HTML, CSS, an
 - **Menu Button**: A collapsible menu for mobile views with smooth transitions.
 - **Easy Customization**: Simple HTML and CSS structure that can be easily customized.
 
+## Usage
+
+1. **Adding/Removing Links**: Edit the `<ul class="nav-menu">` section in `index.html` to add or remove navigation items.
+2. **Styling**: Modify the CSS in the `<style>` tag to customize the appearance of the menu.
+3. **JavaScript**: The script handles the menu button toggle functionality. Adjust it if needed.
+
 ## Installation
 
 To use this template, simply clone the repository and open the `index.html` file in your browser.
@@ -29,16 +35,6 @@ git clone https://github.com/Iqbolshoh/template-mobile-menu.git
 cd template-mobile-menu
 ```
 
-### Open the Template
-
-Open `index.html` in your preferred web browser to view the mobile menu in action.
-
-## Usage
-
-1. **Adding/Removing Links**: Edit the `<ul class="nav-menu">` section in `index.html` to add or remove navigation items.
-2. **Styling**: Modify the CSS in the `<style>` tag to customize the appearance of the menu.
-3. **JavaScript**: The script handles the menu button toggle functionality. Adjust it if needed.
-
 ## Technologies Used
 
 <div style="display: flex; flex-wrap: wrap; gap: 5px;">
@@ -48,7 +44,6 @@ Open `index.html` in your preferred web browser to view the mobile menu in actio
     <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
         alt="JavaScript">
 </div>
-
 
 ## Contributing
 
