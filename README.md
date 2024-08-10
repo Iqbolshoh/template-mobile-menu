@@ -1,18 +1,16 @@
 # Mobile Menu Template
 
-## Description
-
 This repository contains a simple mobile menu template built using HTML, CSS, and JavaScript. It features a responsive navigation bar that adapts to mobile screens with a menu button that expands and collapses on click.
 
-## Screenshots
+## Preview
 
-### Desktop View
+### Desktop
 
-![Desktop Menu View](https://github.com/Iqbolshoh/template-mobile-menu/blob/main/images/menu-1.png)
+![Desktop Preview](./images/desktop.png)
 
-### Mobile View
+### Mobile
 
-![Mobile Menu View](https://github.com/Iqbolshoh/template-mobile-menu/blob/main/images/menu-2.png)
+![Mobile Preview](./images/mobile.png)
 
 ## Features
 
