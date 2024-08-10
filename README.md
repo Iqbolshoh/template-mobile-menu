@@ -39,6 +39,17 @@ Open `index.html` in your preferred web browser to view the mobile menu in actio
 2. **Styling**: Modify the CSS in the `<style>` tag to customize the appearance of the menu.
 3. **JavaScript**: The script handles the menu button toggle functionality. Adjust it if needed.
 
+## Technologies Used
+
+<div style="display: flex; flex-wrap: wrap; gap: 5px;">
+    <img src="https://img.shields.io/badge/HTML-%23F06529.svg?style=for-the-badge&logo=html5&logoColor=white"
+        alt="HTML">
+    <img src="https://img.shields.io/badge/CSS-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
+    <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
+        alt="JavaScript">
+</div>
+
+
 ## Contributing
 
 Contributions are welcome! If you have suggestions or want to enhance the project, feel free to fork the repository and submit a pull request.
