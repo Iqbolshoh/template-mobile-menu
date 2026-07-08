@@ -1,37 +1,77 @@
 # 📱 JavaScript Mobile Menu
 
-This repository contains a **simple mobile menu template** built using **HTML, CSS, and JavaScript**. It features a **responsive navigation bar** that adapts to mobile screens with a **menu button** that expands and collapses on click.
+**JavaScript Mobile Menu** is a **lightweight, responsive navigation bar component** built with **vanilla HTML, CSS, and JavaScript**. It shows a full horizontal menu on desktop and collapses into an animated hamburger toggle on smaller screens — a clean, dependency-free starting point for any website header.
 
-## 🎨 Preview
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-%23F7DF1C.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License">
+</p>
 
-### 🖥️ Desktop
+## 📚 Table of Contents
+
+- [Features](#-features)
+- [Preview](#-preview)
+- [Project Structure](#-project-structure)
+- [Installation Guide](#️-installation-guide)
+- [Usage](#-usage)
+- [Technologies Used](#-technologies-used)
+- [License](#-license)
+- [Contributing](#-contributing)
+- [Connect with Me](#-connect-with-me)
+
+## ✨ Features
+
+✅ **Responsive navigation:** Full inline menu on desktop, collapsible drawer on mobile.
+✅ **Animated hamburger icon:** The three lines morph into an X when the menu opens.
+✅ **Smooth transitions:** CSS-based slide-in animation for the mobile menu panel.
+✅ **Zero dependencies:** Pure HTML, CSS, and JavaScript — no frameworks required.
+✅ **Easy to customize:** Simple markup and class names make styling and re-theming quick.
+
+## 👀 Preview
+
+### 💻 Desktop
 ![Desktop Preview](./src/images/desktop.png)
 
 ### 📱 Mobile
 ![Mobile Preview](./src/images/mobile.png)
 
-## ✨ Features
+## 📂 Project Structure
 
-- 🖥️ **Responsive Design**: The navigation bar adjusts for both desktop and mobile screens.
-- 🎯 **Menu Button**: A collapsible menu for mobile views with smooth transitions.
-- 🎨 **Easy Customization**: Simple **HTML and CSS** structure that can be easily customized.
+```
+javascript-mobile-menu/
+├── src/
+│   ├── css/
+│   │   └── style.css        # Navbar layout, responsive breakpoints, and menu animation
+│   ├── js/
+│   │   └── script.js        # Hamburger toggle logic
+│   └── images/                # Screenshots used in this README
+├── favicon.ico
+├── index.html                  # Navbar markup
+└── README.md
+```
+
+## ⚙️ Installation Guide 🛠️
+
+### 1️⃣ Clone the Repository 📥
+```bash
+git clone https://github.com/Iqbolshoh/javascript-mobile-menu.git
+```
+
+### 2️⃣ Navigate to the Project Directory 📂
+```bash
+cd javascript-mobile-menu
+```
+
+### 3️⃣ Open the App 🌐
+Just open `index.html` in any modern browser — no build step or server required.
 
 ## 🚀 Usage
 
-1. ✏️ **Adding/Removing Links**: Edit the `<ul class="nav-menu">` section in `index.html` to add or remove navigation items.
-2. 🎨 **Styling**: Modify the CSS in the `<style>` tag to customize the appearance of the menu.
-3. ⚙️ **JavaScript**: The script handles the menu button toggle functionality. Adjust it if needed.
-
-## 🛠 Installation
-
-To use this template, simply clone the repository and open the `index.html` file in your browser.
-
-### 📂 Clone the Repository
-
-```bash
-git clone https://github.com/Iqbolshoh/javascript-mobile-menu.git
-cd javascript-mobile-menu
-```
+1. ✏️ **Edit menu links:** Update the `<ul class="nav-menu">` list in `index.html` to add or remove navigation items.
+2. 🎨 **Restyle:** Adjust `src/css/style.css` to change colors, spacing, or the mobile breakpoint (`@media (max-width: 768px)`).
+3. ⚙️ **Behavior:** `src/js/script.js` toggles the `.active` class on the hamburger icon and menu — extend it if you need extra interactivity (e.g. closing on link click).
 
 ## 🖥 Technologies Used
 ![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -39,71 +79,22 @@ cd javascript-mobile-menu
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1C.svg?style=for-the-badge&logo=javascript&logoColor=black)
 
 ## 📜 License
-This project is open-source and available under the **MIT License**.
+This project is open-source and available under the [MIT License](./LICENSE).
 
-## 🤝 Contributing  
+## 🤝 Contributing
 🎯 Contributions are welcome! If you have suggestions or want to enhance the project, feel free to fork the repository and submit a pull request.
 
-## 📬 Connect with Me  
-💬 I love meeting new people and discussing tech, business, and creative ideas. Let’s connect! You can reach me on these platforms:
+## 📬 Connect with Me
+💬 I love meeting new people and discussing tech, business, and creative ideas. Let's connect! You can reach me on these platforms:
 
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <a href="https://iqbolshoh.uz" target="_blank">
-          <img src="https://img.icons8.com/color/48/domain.png" 
-               height="40" width="40" alt="Website" title="Website" />
-        </a>
-      </td>
-      <td>
-        <a href="mailto:iilhomjonov777@gmail.com" target="_blank">
-          <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/gmail.svg"
-               height="40" width="40" alt="Email" title="Email" />
-        </a>
-      </td>
-      <td>
-        <a href="https://github.com/iqbolshoh" target="_blank">
-          <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
-               height="40" width="40" alt="GitHub" title="GitHub" />
-        </a>
-      </td>
-      <td>
-        <a href="https://www.linkedin.com/in/iqbolshoh/" target="_blank">
-          <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/linkedin.svg"
-               height="40" width="40" alt="LinkedIn" title="LinkedIn" />
-        </a>
-      </td>
-      <td>
-        <a href="https://t.me/iqbolshoh_777" target="_blank">
-          <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/telegram.svg"
-               height="40" width="40" alt="Telegram" title="Telegram" />
-        </a>
-      </td>
-      <td>
-        <a href="https://wa.me/998997799333" target="_blank">
-          <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/whatsapp.svg"
-               height="40" width="40" alt="WhatsApp" title="WhatsApp" />
-        </a>
-      </td>
-      <td>
-        <a href="https://instagram.com/iqbolshoh_777" target="_blank">
-          <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
-               height="40" width="40" alt="Instagram" title="Instagram" />
-        </a>
-      </td>
-      <td>
-        <a href="https://x.com/iqbolshoh_777" target="_blank">
-          <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"
-               height="40" width="40" alt="X" title="X (Twitter)" />
-        </a>
-      </td>
-      <td>
-        <a href="https://www.youtube.com/@Iqbolshoh_777" target="_blank">
-          <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg"
-               height="40" width="40" alt="YouTube" title="YouTube" />
-        </a>
-      </td>
-    </tr>
-  </table>
+
+[![Website](https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://iqbolshoh.uz)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:iilhomjonov777@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/iqbolshoh)
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/templates_uz_support)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/998776030033)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/iqbolshoh.dev)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Iqbolshoh_dev)
+
 </div>
